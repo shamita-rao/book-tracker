@@ -65,7 +65,7 @@ const SearchFilter = ({ books, setFilteredBooks }) => {
                 <option value="dnf">Did Not Finish</option>
               </select>
             </div>
-            <div className="col-md-3 d-flex gap-1"> {/* Adjusted column size and gap */}
+            <div className="col-md-3 d-flex gap-1">
               <button 
                 type="submit" 
                 className="btn flex-grow-1"
@@ -73,7 +73,7 @@ const SearchFilter = ({ books, setFilteredBooks }) => {
                   backgroundColor: '#2f0302',
                   color: 'white',
                   border: 'none',
-                  height: '38px' // Fixed height
+                  height: '38px' 
                 }}
               >
                 <FaFilter className="me-1" /> Filter
