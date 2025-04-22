@@ -1,6 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '@fontsource/source-serif-pro';
-import './styles/index.css';
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
